@@ -39,5 +39,6 @@ public:
 int main(void)
 {
 	AString var("hello world");
+	var.func();
 	return 0;
 }
