@@ -2,19 +2,25 @@
 #include<cstring>
 using namespace std;
 
-class Person
+class AString
 {
 private:
 	char * name;
+	int num;
 public:
-	Person(char * myname)
+	int i,j;
+	AString(char * myname)
 	{
 		int len = strlen(myname) + 1;
 		name = new char[len];
 		strcpy_s(name, len, myname);
-		for (int i = 0; i < len - 1; i++)
+		num = len;
+	}
+	void func()
+	{
+		for (int i = 0; i < num - 1; i++)
 		{
-			for (int j = i + 1; j < len; j++)
+			for (int j = i + 1; j < num; j++)
 			{
 				if (name[i] == name[j])
 				{
@@ -24,7 +30,7 @@ public:
 			}
 		}
 	}
-	~Person()
+	~AString()
 	{
 		delete[]name;
 	}
@@ -32,6 +38,6 @@ public:
 
 int main(void)
 {
-	Person father("my father is going");
+	AString var("hello world");
 	return 0;
 }
