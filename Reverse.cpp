@@ -2,23 +2,47 @@
 #include <cstring>
 using namespace std;
 
-int main(void)
+class Array
 {
+private:
+	char *arr;
 	char *point;
-	char *str = "abcd efg";
-	int len = strlen(str);
-	point = new char[len];
-	//cout << len;
-	for (int i = 0; i < len; i++)
-	{	
-		point[i] = str[len - 1 - i];
+	int num;
+public:
+	Array(char *str):arr(str)
+	{
+		int len = strlen(str);
+		point = new char[len];
+		num = len;
 	}
 
-	for (int j = 0; j < len; j++)
+	void Rev()
 	{
-		cout << point[j];
+		for (int i = 0; i < num; i++)
+		{
+			point[i] = arr[num - 1 - i];
+		}
 	}
+
+	void Print()
+	{
+		for (int j = 0; j < num; j++)
+		{
+			cout << point[j];
+		}
+	}
+
+	~Array()
+	{
+		delete[] point;
+	}
+};
+
+int main(void)
+{
+	Array str("abcdefgh");
+	str.Rev();
+	str.Print();
 	cout << "\n";
-	return 0;
 }
 
