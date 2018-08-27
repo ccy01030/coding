@@ -32,7 +32,6 @@ public:
 			
 			if (name[i] != NULL)
 				cout << name[i];
-				
 		}
 	}
 
