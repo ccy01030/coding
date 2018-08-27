@@ -1,4 +1,4 @@
-#include<iostream>
+#include<iostream> //  code to remove the duplicate characters 
 #include<cstring>
 using namespace std;
 
