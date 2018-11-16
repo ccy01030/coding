@@ -1,22 +1,23 @@
-#include <iostream>
-#include <vector>
-using namespace std;
+#include<iostream>
+#include<vector>
 
-int main()
+int main(void)
 {
-	int arr[] = { 16,2,77,29 };
-	int arr1[] = { 10,20,30 };
-
-	vector<int>v(arr, arr + sizeof(arr) / sizeof(int));
-	vector<int>v1(arr1, arr1 + sizeof(arr1) / sizeof(int));
-
-	for (int i=0; i< v.size(); i++)
-		cout << arr[i] << ' ';
-	cout << "\n";
-	for (int i = 0; i< v1.size(); i++)
-		cout << arr1[i] << ' ';
-	cout << '\n';
-
-	return 0;
+	std::vector <std::vector<int>> v(100);
+	const int colum = 10;
+	const int row = 10;
+	int arr[colum][row] = { {10, 20, 30, 1}, {1,2,3,4,5} };
+	
+	for (int i = 0; i < colum; i++)
+	{
+		for (int j = 0; j < row; j++)
+		{
+			v[i].push_back(arr[i][j]);
+			
+			if (v[i][j] != NULL)
+			{
+				std::cout << v[i][j];
+			}
+		}
+	}
 }
-
