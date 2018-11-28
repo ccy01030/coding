@@ -10,6 +10,7 @@ private:
 
 public:
 	StoreVector(int arr[row][column]);
+	std::vector <std::vector<int>> Vec();
 };
 
 StoreVector::StoreVector(int arr[row][column])
@@ -24,8 +25,17 @@ StoreVector::StoreVector(int arr[row][column])
 	}
 };
 
+std::vector <std::vector<int>> StoreVector::Vec()
+{
+	std::vector <std::vector<int>>& a = v;
+	return a;
+}
+
 int main()
 {
-	int Array[50][50] = { {1,34,5,7,8,9},{2,37,909,76} };
-	StoreVector Vec(Array);
+	int Array[50][50] = { { 1,34,5,7,8,9 },{ 2,37,909,76 } };
+	StoreVector data(Array);
+	data.Vec();
+
+	return 0;
 }
