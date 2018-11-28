@@ -6,6 +6,7 @@ class StoreVector
 private:
 	static const int row = 50;
 	static const int column = 50;
+	std::vector <std::vector<int>> v;
 
 public:
 	StoreVector(int arr[row][column]);
@@ -13,18 +14,15 @@ public:
 
 StoreVector::StoreVector(int arr[row][column])
 {
-	std::vector <std::vector<int>> v(100);
-
+	v.resize(100);
 	for (int i = 0; i < row; i++)
 	{
 		for (int j = 0; j < column; j++)
 		{
 			v[i].push_back(arr[i][j]);
-			std::cout << v[i][j];
 		}
 	}
 };
-
 
 int main()
 {
