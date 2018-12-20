@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyPatternCar", "StrategyPatternCar\StrategyPatternCar.csproj", "{ABAF3C83-3E75-4EDB-829F-B18684A3A94F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ABAF3C83-3E75-4EDB-829F-B18684A3A94F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABAF3C83-3E75-4EDB-829F-B18684A3A94F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABAF3C83-3E75-4EDB-829F-B18684A3A94F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABAF3C83-3E75-4EDB-829F-B18684A3A94F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FCCB6511-5022-427B-B45E-DFEDDF9AC3AE}
+	EndGlobalSection
+EndGlobal
