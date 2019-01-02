@@ -1,0 +1,13 @@
+C:\Users\212566254\source\repos\StrategyPatternCar\StrategyPatternCar\obj\Debug\StrategyPatternCar.csprojAssemblyReference.cache
+C:\Users\212566254\source\repos\StrategyPatternCar\StrategyPatternCar\obj\Debug\StrategyPatternCar.csproj.CoreCompileInputs.cache
+C:\Users\212566254\source\repos\StrategyPatternCar\StrategyPatternCar\bin\Debug\StrategyPatternCar.exe.config
+C:\Users\212566254\source\repos\StrategyPatternCar\StrategyPatternCar\bin\Debug\StrategyPatternCar.exe
+C:\Users\212566254\source\repos\StrategyPatternCar\StrategyPatternCar\bin\Debug\StrategyPatternCar.pdb
+C:\Users\212566254\source\repos\StrategyPatternCar\StrategyPatternCar\obj\Debug\StrategyPatternCar.exe
+C:\Users\212566254\source\repos\StrategyPatternCar\StrategyPatternCar\obj\Debug\StrategyPatternCar.pdb
+C:\Users\212706737\Downloads\StrategyPatternCar\StrategyPatternCar\StrategyPatternCar\bin\Debug\StrategyPatternCar.exe.config
+C:\Users\212706737\Downloads\StrategyPatternCar\StrategyPatternCar\StrategyPatternCar\obj\Debug\StrategyPatternCar.exe
+C:\Users\212706737\Downloads\StrategyPatternCar\StrategyPatternCar\StrategyPatternCar\obj\Debug\StrategyPatternCar.pdb
+C:\Users\212706737\Downloads\StrategyPatternCar\StrategyPatternCar\StrategyPatternCar\bin\Debug\StrategyPatternCar.exe
+C:\Users\212706737\Downloads\StrategyPatternCar\StrategyPatternCar\StrategyPatternCar\bin\Debug\StrategyPatternCar.pdb
+C:\Users\212706737\Downloads\StrategyPatternCar\StrategyPatternCar\StrategyPatternCar\obj\Debug\StrategyPatternCar.csprojResolveAssemblyReference.cache
